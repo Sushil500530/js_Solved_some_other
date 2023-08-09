@@ -1,4 +1,4 @@
-/*
+
 const shopingCard = [
     { name: 'shoe', price: 1200, quantity: 2},
     { name: 'shirt', price: 2200, quantity: 5},
@@ -42,7 +42,7 @@ console.log('Total Phone Price is :', sumOfCard, 'TK');
    }
    const friends = ['sajid', 'mamun', 'kamal', 'jubauer bin rased', 'chanku','sushil','proshanta','shamim'];
    console.log(bestFriend(friends));
-      */
+  
 
    function reverse(numb){
     let re = 0;
@@ -55,20 +55,20 @@ console.log('Total Phone Price is :', sumOfCard, 'TK');
     }
     return re;
    }
-   const numbers = [45, 87, 96, 11, 63, -56, 71, 28];
-   console.log(reverse(numbers));
+   const numbers1 = [45, 87, 96, 11, 63, -56, 71, 28];
+   console.log(reverse(numbers1));
 
    // akti array er  moddhe onek gulo songkha thakle tar moddhe negetive number pele break hoye jabe
 
-// function removeReverse(numbers){
-//     for(let reverse of numbers){
-//         // console.log(reverse)
-//         if(reverse < 0){
-//             break;
-//         }
-//         console.log(reverse)
-//     }
-// }
-// const numbers = [45, 87, 96, 11, 63, -56, 71, 28];
-// removeReverse(number);
+function removeReverse(numbers){
+    for(let reverse of numbers){
+        // console.log(reverse)
+        if(reverse < 0){
+            break;
+        }
+        console.log(reverse)
+    }
+}
+const numbers = [45, 87, 96, 11, 63, -56, 71, 28];
+removeReverse(number);
 

@@ -1,6 +1,6 @@
 // let x = 8 & 1;
 // console.log(x)
-/*
+
 function string(str){
     if(typeof str !== 'string'){
         return "please provide a valid string!"
@@ -22,9 +22,9 @@ function string(str){
 }
 console.log(string('110101010010'))
 
-*/
+
 //  convert decimal to binary 
-/*
+
 function decimalToBinary(decimalNumber) {
     if (decimalNumber === 0) {
       return decimalNumber;
@@ -43,4 +43,4 @@ function decimalToBinary(decimalNumber) {
   const decimalNumber = 50; // Replace with your decimal number
   const binaryNumber = decimalToBinary(decimalNumber);
   console.log(`Decimal: ${decimalNumber} -> Binary: ${binaryNumber}`);
-*/
+

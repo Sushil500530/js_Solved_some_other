@@ -1,16 +1,19 @@
-// function findingBadData(arr){
-//     let badData =[];
-//     for(let number of arr){
-//         if(number < 0){
-//             badData ++;
-//         }
-//     }
-//     return badData;
-// }
-// const arrayNumber = [2, -5, -7, -13, 51, 20, -15, 20, -54, 59];
-// // console.log(findingBadData(arrayNumber))
+// finding reverse number 
+function findingBadData(arr){
+    let badData =[];
+    for(let number of arr){
+        if(number < 0){
+            badData ++;
+        }
+    }
+    return badData;
+}
+const arrayNumber = [2, -5, -7, -13, 51, 20, -15, 20, -54, 59];
+// console.log(findingBadData(arrayNumber))
 
 /*
+other problem solving trying other type
+*/
 function find(number){
     let bad  = [];
     for(let item of number){
